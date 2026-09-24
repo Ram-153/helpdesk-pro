@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Flask / local runtime
+instance/
+
+# Uploaded files
+uploads/
+
+# Local test artifacts
+test-attachment.txt
+downloaded-attachment.txt
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
